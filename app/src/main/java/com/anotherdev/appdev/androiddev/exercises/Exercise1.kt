@@ -1,4 +1,4 @@
-package com.anotherdev.appdev.exercises
+package com.anotherdev.appdev.androiddev.exercises
 
 /**
  * Por lo general, el teléfono te proporciona un resumen de las notificaciones.

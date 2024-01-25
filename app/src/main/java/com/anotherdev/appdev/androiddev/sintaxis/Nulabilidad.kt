@@ -1,4 +1,4 @@
-package com.anotherdev.appdev.sintaxis
+package com.anotherdev.appdev.androiddev.sintaxis
 
 fun main() {
     // los nullos no son permitidos en kotlin osea los protege

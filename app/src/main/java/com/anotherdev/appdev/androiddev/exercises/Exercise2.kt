@@ -1,4 +1,4 @@
-package com.anotherdev.appdev.exercises
+package com.anotherdev.appdev.androiddev.exercises
 
 /**
  * Las entradas de cine suelen tener un precio diferente según la edad de los espectadores.

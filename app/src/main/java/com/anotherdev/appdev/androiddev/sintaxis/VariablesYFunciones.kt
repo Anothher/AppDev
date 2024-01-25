@@ -1,4 +1,4 @@
-package com.anotherdev.appdev.sintaxis
+package com.anotherdev.appdev.androiddev.sintaxis
 
 //APRENDIENDO VARIABLES EN KOTLIN
 //  VARIABLES GLOBALES FUERA DE UNA FUNCION
