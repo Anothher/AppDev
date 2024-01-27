@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="45dp"
+    android:paddingVertical="32dp"
+    tools:context="imccalculator.ImcCalculatorActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/viewMale"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/background_component_selected"
+        app:layout_constraintEnd_toStartOf="@+id/viewFemale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Hola de mar"
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/viewFemale"
+        android:layout_width="0dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="@color/background_component"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewMale"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
